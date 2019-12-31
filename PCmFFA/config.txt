@@ -1,0 +1,20 @@
+ImgPC.jpg
+5
+6
+1.0
+3.5
+
+
+
+*******
+Meaning of parameters
+Line 1: name of image to compute with absolute path if necessary
+Line 2: method computed
+	1 - CTA (like Roli Method)
+	2 - FFA (the Free Form Anysotropy algorithm
+	3 - CTA and FFA
+
+Line 3 : d distance of FFA or CTA
+Line 4 & 5 : to ajust thresold to binarise FFA or CTA images
+
+CTA & FFA images are stored on directory and can be used to test others thresholdings 
